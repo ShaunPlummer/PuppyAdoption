@@ -24,9 +24,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
+import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
@@ -35,6 +33,7 @@ import com.example.androiddevchallenge.ui.theme.MyTheme
 
 private const val TAG = "puppy_list"
 
+@ExperimentalMaterialApi
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -52,6 +51,7 @@ class MainActivity : AppCompatActivity() {
     }
 }
 
+@ExperimentalMaterialApi
 @Preview("Puppy List")
 @Composable
 fun PuppyListPreview() {
@@ -64,11 +64,12 @@ fun PuppyListPreview() {
     }
 }
 
+@ExperimentalMaterialApi
 @Composable
 fun PuppyList(puppyList: List<Dog>) {
     LazyColumn {
         items(items = puppyList) { puppy ->
-            MaterialListItem(text = puppy.name)
+            ListItem(text = { puppy.name })
         }
     }
 }
