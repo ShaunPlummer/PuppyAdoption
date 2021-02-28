@@ -15,7 +15,7 @@
  */
 package com.example.androiddevchallenge
 
-import androidx.annotation.IdRes
+import androidx.annotation.RawRes
 
 /**
  * Information about a Puppy who can be adopted. Including their [name] and [age] in human years.
@@ -23,7 +23,7 @@ import androidx.annotation.IdRes
 data class Dog(
     val name: String,
     val age: Int,
-    @IdRes val image: Int,
+    @RawRes val image: Int,
     val gender: String = "",
     val weight: Int = 0
 
