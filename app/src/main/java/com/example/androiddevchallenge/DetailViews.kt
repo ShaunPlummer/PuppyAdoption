@@ -37,6 +37,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.androiddevchallenge.model.Dog
+import com.example.androiddevchallenge.model.PetData
 import com.example.androiddevchallenge.ui.theme.MyTheme
 
 @ExperimentalComposeUiApi

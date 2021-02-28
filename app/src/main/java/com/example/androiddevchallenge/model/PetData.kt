@@ -13,8 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.example.androiddevchallenge
+package com.example.androiddevchallenge.model
 
+import com.example.androiddevchallenge.R
 import kotlin.random.Random
 
 /**
