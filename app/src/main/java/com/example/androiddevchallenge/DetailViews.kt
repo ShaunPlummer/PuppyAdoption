@@ -59,7 +59,7 @@ fun PetDetail(dog: Dog) {
                 painter = painterResource(dog.image),
                 contentDescription = null,
                 modifier = Modifier
-                    .height(180.dp)
+                    .height(250.dp)
                     .fillMaxWidth(),
                 contentScale = ContentScale.FillWidth
             )
