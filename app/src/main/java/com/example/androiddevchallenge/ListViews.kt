@@ -38,37 +38,37 @@ import com.example.androiddevchallenge.ui.theme.MyTheme
 
 @Preview("Puppy List")
 @Composable
-fun PuppyListPreview() {
+fun PetListPreview() {
     MyTheme {
-        PuppyList(
-            puppyList = PetData.dogList.take(5)
+        PetList(
+            petList = PetData.dogList.take(5)
         )
     }
 }
 
 @Composable
-fun PuppyList(puppyList: List<Dog>) {
+fun PetList(petList: List<Dog>) {
     LazyColumn(
         modifier = Modifier
             .fillMaxWidth()
             .padding(16.dp),
     ) {
-        items(items = puppyList) { puppy ->
-            petCard(puppy)
+        items(items = petList) { puppy ->
+            PetCard(puppy)
         }
     }
 }
 
 @Preview
 @Composable
-fun petCardPreview() {
+fun PetCardPreview() {
     MyTheme {
-        petCard(PetData.dogList.first())
+        PetCard(PetData.dogList.first())
     }
 }
 
 @Composable
-fun petCard(dog: Dog) {
+fun PetCard(dog: Dog) {
     Surface(
         modifier = Modifier
             .padding(4.dp)

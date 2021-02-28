@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
                     color = MaterialTheme.colors.background,
                     modifier = Modifier.fillMaxWidth()
                 ) {
-                    PuppyList(puppyList = PetData.dogList)
+                    PetList(petList = PetData.dogList)
                 }
             }
         }
