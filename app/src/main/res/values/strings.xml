@@ -10,4 +10,9 @@
       the License.
       -->
     <string name="app_name">AndroidDevChallenge</string>
+    <string name="label_weight">Weight</string>
+    <string name="label_gender">Gender</string>
+    <string name="label_age">Age</string>
+    <string name="label_bio">Bio</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer placerat consectetur pretium. Nunc egestas, magna id sodales blandit, massa velit lacinia elit, nec convallis mi dui et lacus. Donec fringilla ligula ac odio dapibus convallis. Nulla faucibus dolor ac sapien luctus, vitae consectetur nisl interdum. Sed congue, tellus quis vulputate pretium, velit tellus molestie turpis, non malesuada enim quam at mi. Proin nulla velit, ultrices a efficitur sit amet, mattis sit amet mi. Integer vel luctus tortor. Donec elementum orci nec nulla mattis, eget pharetra sapien aliquet. Cras fermentum tellus non magna pharetra, a pharetra est tincidunt. Phasellus imperdiet tellus a tincidunt rutrum.</string>
 </resources>
