@@ -34,6 +34,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.example.androiddevchallenge.model.Dog
 import com.example.androiddevchallenge.model.PetData
 import com.example.androiddevchallenge.ui.theme.MyTheme
@@ -97,7 +98,8 @@ fun PetCard(dog: Dog) {
             Text(
                 text = dog.name,
                 textAlign = TextAlign.Center,
-                modifier = Modifier.fillMaxWidth()
+                modifier = Modifier.fillMaxWidth(),
+                fontSize = 21.sp
             )
         }
     }
