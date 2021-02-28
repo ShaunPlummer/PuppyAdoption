@@ -26,5 +26,4 @@ data class Dog(
     @RawRes val image: Int,
     val gender: String = "",
     val weight: Int = 0
-
 )
