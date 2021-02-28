@@ -24,8 +24,6 @@ import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
 import com.example.androiddevchallenge.ui.theme.MyTheme
 
-private const val TAG = "puppy_list"
-
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
